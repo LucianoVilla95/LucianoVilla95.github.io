@@ -51,7 +51,7 @@ html {
     color: #fff;
     margin: 0 12px;
     font-weight: 400;
-    transition: .5s;   
+    transition: .5s;  
 }
 
 #home .container header .container-header nav ul li a:hover {
@@ -239,7 +239,6 @@ html {
     justify-content: center;
     align-items: center;
     margin-top: 3rem;
-    width: 110rem;
     margin-right: 8rem;
 }
 
@@ -335,7 +334,7 @@ html {
         background-color: rgba(0, 0, 0, .8);
         width: 100%;
         position: absolute;
-        top: 68px;
+        top: 42px;
         left: 0;
         padding: 20px 0;
     }
@@ -358,13 +357,13 @@ html {
     }
 
     #aboutme {
-        padding: 50px 0;
         display: block;
+        margin: 0 auto;
     }
 
     #aboutme .container-photo {
         max-width: 200px;
-        margin: auto;
+        margin: 0 auto;
         margin-bottom: 20px;
     }
 
@@ -387,6 +386,7 @@ html {
         grid-column-gap: 10rem;
         justify-content: center;
         align-items: center;
+        margin-top: 2rem;
     }
 
     .container-skills .container-two .skill {
@@ -408,14 +408,7 @@ html {
         font-size: 40px;
     }
 
-    #aboutme {
-        padding: 50px 0;
-        display: block;
-    }
-
     #aboutme .container-photo {
-        max-width: 200px;
-        margin: auto;
         margin-bottom: 10px;
     }
 
@@ -437,6 +430,7 @@ html {
         grid-column-gap: 10rem;
         justify-content: center;
         align-items: center;
+        margin-top: 1rem;
     }
 
     .container-skills .container-two .skill {
@@ -459,14 +453,8 @@ html {
     }
 
     #aboutme {
-        padding: 50px 0px;
+        padding: 50px 20px;
         display: block;
-    }
-
-    #aboutme .container-photo {
-        max-width: 200px;
-        margin: auto;
-        margin-bottom: 10px;
     }
 
     #aboutme .container-photo img {
@@ -529,12 +517,6 @@ html {
         display: block;
     }
 
-    #aboutme .container-photo {
-        max-width: 200px;
-        margin: auto;
-        margin-bottom: 10px;
-    }
-
     #aboutme .container-photo img {
         padding: 8px;
         max-width: 70%;
@@ -569,7 +551,7 @@ html {
 
 @media screen and (max-width: 550px) {
     #home .container .container-header h1 {
-        font-size: 40px;
+        font-size: 20px;
     }
 
     #aboutme {
@@ -621,6 +603,65 @@ html {
 
     .container-skills .container-two .skill {
         margin-bottom: 4rem;
-        margin-left: 0.3rem;
+        margin-left: 1rem;
     }
+}
+
+@media screen and (max-width: 430px) {
+    
+    #aboutme .container-photo {
+        max-width: 150px;
+    }
+
+    #aboutme .aboutme h2 {
+        font-size: 18px;
+    }
+
+    #aboutme .aboutme h3 {
+        font-size: 14px;
+    }
+
+    #aboutme .aboutme p {
+        font-size: 14px;
+        line-height: 15px;
+        margin-bottom: 4px;
+    }
+
+    #skills .container-two {
+        display: grid;
+        grid-template-columns: 0.5rem 0.5rem 0.5rem;
+        grid-column-gap: 6rem;
+    }
+
+    #skills .container-two .skill {
+        margin-bottom: 1.5rem;
+        font-size: 10px;
+        width: 6rem;
+        height: 8rem;
+        border-radius: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #home .container .presentation h2 {
+        font-size: 52px;
+    }
+
+    #aboutme .container-photo {
+        max-width: 100px;
+    }
+
+    #aboutme .aboutme h2 {
+        margin: 6px 0;
+    }
+
+    #aboutme .aboutme h3 {
+        margin-bottom: 6px;
+    }
+
+    #aboutme .aboutme p {
+        font-size: 12px;
+        margin-bottom: 2px;
+    }
+
 }
